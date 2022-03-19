@@ -1,2 +1,1 @@
-# PracaMGR_BC
-Praca magisterska
+Raport "Wartości dostaw netto" w którym zawarte są informacje dotyczące wartości dostaw do poszczególnych magazynów w systemie włącznie ze sprzedażą, zakupem, wydaniem, przyjęciem przesunięć oraz korekt in-plus oraz in-minus za wybrany przez użytkownika okres. Dzięki temu, przy setkach, a nawet tysiącach zamówień odpowiedni pracownicy mają możliwość szybkiej orientacji dot. stanu magazynowego, przesunięć oraz wartości sprzedaży i zakupu z poszczególnych magazynów, co pozwala przyspieszyć działania związane z ich bieżącym działaniem, a także ułatwia weryfikacje dokumentów.
