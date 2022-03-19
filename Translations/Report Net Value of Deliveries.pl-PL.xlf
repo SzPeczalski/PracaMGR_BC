@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" source-language="en-US" target-language="pl-PL" original="Please update this value">
+    <body>
+      <group id="body">
+        <trans-unit id="Report 3432559936 - Control 959725477 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Date Begin</source>
+          <target>Data początkowa</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Net Values of Deliveries - Control DateBegin - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 3432559936 - Control 664594125 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Date End</source>
+          <target>Data końcowa</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Net Values of Deliveries - Control DateEnd - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 3432559936 - Control 198878435 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Include Expected Cost</source>
+          <target>Uwzględnij koszt przewidywany</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Net Values of Deliveries - Control IncludeExpectedCost - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 3432559936 - ReportLabel 1171630355" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Location Code Group Name</source>
+          <target>Magazyn</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Net Values of Deliveries - ReportLabel Location_Code_NameCaption</note>
+        </trans-unit>
+        <trans-unit id="Report 3432559936 - NamedType 3674764559" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Net Delivery Values</source>
+          <target>Wartości dostaw netto</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Net Values of Deliveries - NamedType ReportNameCaptionLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 3432559936 - NamedType 1907782198" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Location Code Caption</source>
+          <target>Magazyn</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Net Values of Deliveries - NamedType LocationCodeLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 3432559936 - NamedType 2300688716" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Location Name Caption</source>
+          <target>Opis magazynu</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Net Values of Deliveries - NamedType LocationNameLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 3432559936 - NamedType 3465089402" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Entry Type</source>
+          <target>Typ zapisu</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Net Values of Deliveries - NamedType EntryTypeLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 3432559936 - NamedType 2636616999" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Document Type</source>
+          <target>Typ dokumentu</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Net Values of Deliveries - NamedType DocumentTypeLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 3432559936 - NamedType 1721277456" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Document No.</source>
+          <target>Nr dokumentu</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Net Values of Deliveries - NamedType DocumentNoLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 3432559936 - NamedType 4143495035" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Actual Value Caption</source>
+          <target>Koszt rzeczywisty</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Net Values of Deliveries - NamedType ActualValueCaptionLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 3432559936 - NamedType 2032106787" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Expected Value Caption</source>
+          <target>Koszt przewidywany</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Net Values of Deliveries - NamedType ExpectedValueCaptionLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 3432559936 - NamedType 2563604248" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Base Location Caption</source>
+          <target>Lokalizacja pierwotna</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Net Values of Deliveries - NamedType BaseLocationCaptionLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 3432559936 - NamedType 1498412748" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Target Location Caption</source>
+          <target>Lokalizacja docelowa</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Net Values of Deliveries - NamedType TargetLocationCaptionLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 3432559936 - NamedType 3114637384" size-unit="char" translate="yes" xml:space="preserve">
+          <source>From %1</source>
+          <target>od %1</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Net Values of Deliveries - NamedType Text001</note>
+        </trans-unit>
+        <trans-unit id="Report 3432559936 - NamedType 3752334001" size-unit="char" translate="yes" xml:space="preserve">
+          <source>To %1</source>
+          <target>do %1</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Net Values of Deliveries - NamedType Text002</note>
+        </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

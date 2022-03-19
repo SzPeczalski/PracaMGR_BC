@@ -1,0 +1,37 @@
+{
+  "id": "32bfe382-432e-489e-bed9-a3791f541551",
+  "name": "Report Net Value of Deliveries",
+  "publisher": "SzymonPeczalski",
+  "version": "1.0.0.0",
+  "brief": "",
+  "description": "",
+  "privacyStatement": "",
+  "EULA": "",
+  "help": "",
+  "url": "",
+  "logo": "",
+  "dependencies": [
+    {
+    "id": "a41facb4-aa1f-4f4b-a6d5-a574d9a33911",
+    "publisher": "IT.integro sp. z o.o.",
+    "name": "Polish Functionality - Starter Pack",
+    "version": "2.0.1.2"
+    }
+  ],
+  "screenshots": [],
+  "platform": "1.0.0.0",
+  "application": "19.0.0.0",
+  "idRanges": [
+    {
+      "from": 50000,
+      "to": 50149
+    }
+  ],
+  "resourceExposurePolicy": {
+    "allowDebugging": true,
+    "allowDownloadingSource": false,
+    "includeSourceInSymbolFile": false
+  },
+  "runtime": "8.0",
+  "features": [ "TranslationFile", "GenerateCaptions" ]
+}

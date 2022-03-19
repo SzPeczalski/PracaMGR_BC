@@ -1,0 +1,89 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" source-language="en-US" target-language="en-US" original="Report Net Value of Deliveries">
+    <body>
+      <group id="body">
+        <trans-unit id="Report 2612970377 - NamedType 4143495035" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Actual Value Caption</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report NetValueofDeliveries - NamedType ActualValueCaptionLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 2612970377 - NamedType 2563604248" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Base Location Caption</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report NetValueofDeliveries - NamedType BaseLocationCaptionLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 2612970377 - NamedType 1721277456" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Document No.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report NetValueofDeliveries - NamedType DocumentNoLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 2612970377 - NamedType 2636616999" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Document Type</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report NetValueofDeliveries - NamedType DocumentTypeLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 2612970377 - NamedType 3465089402" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Entry Type</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report NetValueofDeliveries - NamedType EntryTypeLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 2612970377 - NamedType 2032106787" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Expected Value Caption</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report NetValueofDeliveries - NamedType ExpectedValueCaptionLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 2612970377 - NamedType 1907782198" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Location Code Caption</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report NetValueofDeliveries - NamedType LocationCodeLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 2612970377 - NamedType 2300688716" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Location Name Caption</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report NetValueofDeliveries - NamedType LocationNameLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 2612970377 - NamedType 3674764559" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Net Delivery Values</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report NetValueofDeliveries - NamedType ReportNameCaptionLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 2612970377 - NamedType 1498412748" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Target Location Caption</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report NetValueofDeliveries - NamedType TargetLocationCaptionLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 2612970377 - NamedType 3114637384" size-unit="char" translate="yes" xml:space="preserve">
+          <source>From %1</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report NetValueofDeliveries - NamedType Text001</note>
+        </trans-unit>
+        <trans-unit id="Report 2612970377 - NamedType 3752334001" size-unit="char" translate="yes" xml:space="preserve">
+          <source>To %1</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report NetValueofDeliveries - NamedType Text002</note>
+        </trans-unit>
+        <trans-unit id="Report 2612970377 - ReportLabel 1171630355" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Location Code Group Name</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report NetValueofDeliveries - ReportLabel Location_Code_NameCaption</note>
+        </trans-unit>
+        <trans-unit id="Report 2612970377 - Control 959725477 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Date Begin</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report NetValueofDeliveries - Control DateBegin - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 2612970377 - Control 664594125 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Date End</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report NetValueofDeliveries - Control DateEnd - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 2612970377 - Control 198878435 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Include Expected Cost</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report NetValueofDeliveries - Control IncludeExpectedCost - Property Caption</note>
+        </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>
