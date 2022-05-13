@@ -111,40 +111,24 @@ report 50100 NetValueofDeliveries
                 Cost := 0;
                 CostExpected := 0;
 
-                if "Item Ledger Entry"."Document Type" = "Item Ledger Entry"."document type"::"Transfer Shipment" then
+                if "Item Ledger Entry"."Document Type" = "Item Ledger Entry"."Document Type"::"Transfer Shipment" then
                     if TransfShtHdr.Get("Item Ledger Entry"."Document No.") then begin
                         TransferFromCode := TransfShtHdr."Transfer-from Code";
                         TransferToCode := TransfShtHdr."Transfer-to Code";
                     end;
-                if "Item Ledger Entry"."Document Type" = "Item Ledger Entry"."document type"::"Transfer Receipt" then
+                if "Item Ledger Entry"."Document Type" = "Item Ledger Entry"."Document Type"::"Transfer Receipt" then
                     if TransfRcpHdr.Get("Item Ledger Entry"."Document No.") then begin
                         TransferFromCode := TransfRcpHdr."Transfer-from Code";
                         TransferToCode := TransfRcpHdr."Transfer-to Code";
                     end;
-                if "Item Ledger Entry"."Entry Type" = "Item Ledger Entry"."entry type"::Purchase then begin
+                if ("Item Ledger Entry"."Document Type" = "Item Ledger Entry"."Document Type"::"Purchase Credit Memo") and ("Item Ledger Entry"."Document Type" = "Item Ledger Entry"."Document Type"::"Sales Credit Memo") then begin
                     Cost := "Item Ledger Entry"."Cost Amount (Actual)";
                     CostExpected := "Item Ledger Entry"."Cost Amount (Expected)";
                 end;
-                if "Item Ledger Entry"."Entry Type" = "Item Ledger Entry"."entry type"::"Negative Adjmt." then begin
-                    Cost := "Item Ledger Entry"."Cost Amount (Actual)";
-                    CostExpected := "Item Ledger Entry"."Cost Amount (Expected)";
-                end;
-                if "Item Ledger Entry"."Entry Type" = "Item Ledger Entry"."entry type"::"Positive Adjmt." then begin
-                    Cost := "Item Ledger Entry"."Cost Amount (Actual)";
-                    CostExpected := "Item Ledger Entry"."Cost Amount (Expected)";
-                end;
-                if "Item Ledger Entry"."Entry Type" = "Item Ledger Entry"."entry type"::Transfer then begin
-                    Cost := "Item Ledger Entry"."Cost Amount (Actual)";
-                    CostExpected := "Item Ledger Entry"."Cost Amount (Expected)";
-                end;
-                if "Item Ledger Entry"."Document Type" = "Item Ledger Entry"."document type"::"Purchase Credit Memo" then begin
-                    Cost := "Item Ledger Entry"."Cost Amount (Actual)";
-                    CostExpected := "Item Ledger Entry"."Cost Amount (Expected)";
-                end;
-                if "Item Ledger Entry"."Document Type" = "Item Ledger Entry"."document type"::"Sales Credit Memo" then begin
-                    Cost := "Item Ledger Entry"."Cost Amount (Actual)";
-                    CostExpected := "Item Ledger Entry"."Cost Amount (Expected)";
-                end;
+                "Item Ledger Entry".SetFilter("Entry Type", '%1|%2|%3|%4', 0, 2, 3, 4);
+                Cost := "Item Ledger Entry"."Cost Amount (Actual)";
+                CostExpected := "Item Ledger Entry"."Cost Amount (Expected)";
+
             end;
         }
     }
